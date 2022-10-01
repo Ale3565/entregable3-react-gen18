@@ -56,9 +56,6 @@ function App() {
           ))
         }
       </div>
-    <div className='footer'>
-        <h2>Web Developer: Alexis Levano</h2>
-      </div>
     </div>
   )
 }

@@ -17,23 +17,13 @@ body {
     justify-content: center;
     gap: 30px;
     background-color: #473F3F;
+    flex-direction: column;
 }
 
 .container__input {
     margin: 30px 0;
 
 }
-
-.footer {
-    display: flex;
-    height: 200px;
-    background-color: 473F3F;
-    justify-content: center;
-    align-items: flex-end;
-    color: white;
-    font-size: 1.5rem;
-}
-
 
 .navbar__img {
     border-bottom: 6px solid #A7FFFA;
@@ -42,7 +32,6 @@ body {
 .container__pagination {
     display: flex;
     justify-content: center;
-
     width: 50px;
     height: 50px;
     border-radius: 50%;
