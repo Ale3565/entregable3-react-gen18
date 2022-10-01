@@ -1,6 +1,7 @@
 .App {
     background-color: #473F3F;
-    height: 100%;
+    width: 100%;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
 }
@@ -11,13 +12,13 @@ body {
 
 .container__resident-map {
     width: 100%;
-    height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
     background-color: #473F3F;
-    flex-direction: column;
+    background-size: cover;
+
 }
 
 .container__input {
@@ -30,6 +31,7 @@ body {
 }
 
 .container__pagination {
+    width: 100%;
     display: flex;
     justify-content: center;
     width: 50px;
@@ -42,4 +44,8 @@ body {
     position: relative;
     top: 100px;
     left: 600px;
+}
+
+img {
+    width: 100%;
 }
