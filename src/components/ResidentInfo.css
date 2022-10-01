@@ -1,0 +1,49 @@
+.container__resident {
+    color: white;
+    border: 3px solid #A7FFFA;
+    border-radius: 10px;
+    padding: 9px;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 14px 28px, rgba(255, 255, 255, 0.22) 0px 10px 10px;
+
+}
+
+.circle {
+    bottom: 164px;
+    position: relative;
+    width: 21px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    z-index: 100;
+    left: 184px;
+    background-color: red;
+}
+
+.circle-Alive {
+    background-color: green;
+}
+
+.circle-Dead {
+    background-color: red;
+}
+
+.circle-unknown {
+    background-color: yellow;
+}
+
+.container__status {
+    bottom: 120px;
+    z-index: 100;
+    width: 210px;
+    background-color: gray;
+    text-align: center;
+    position: relative;
+    border-radius: 0 10px 10px 0;
+    background-color: #473F3F;
+
+}
+
+.container__img {
+    width: 100%;
+    height: 340px;
+
+}
